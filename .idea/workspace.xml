@@ -158,6 +158,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -284,7 +285,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10691319" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -543,7 +544,7 @@
       <workItem from="1524154495267" duration="1761000" />
       <workItem from="1524805039548" duration="102000" />
       <workItem from="1525866626913" duration="84000" />
-      <workItem from="1525867535241" duration="6844000" />
+      <workItem from="1525867535241" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="Java线程池的实现">
       <created>1525874191744</created>
@@ -566,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525874278137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java线程池的实现">
+      <created>1525874394498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525874394498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -575,7 +583,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14698000" />
+    <option name="totallyTimeSpent" value="14881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
