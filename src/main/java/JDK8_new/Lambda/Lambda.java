@@ -1,4 +1,4 @@
-package JDK8_new;
+package JDK8_new.Lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
