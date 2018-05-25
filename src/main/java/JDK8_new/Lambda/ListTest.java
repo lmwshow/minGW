@@ -1,9 +1,13 @@
 package JDK8_new.Lambda;
 
+import org.apache.log4j.helpers.ThreadLocalMap;
+
 import java.time.Instant;
 import java.time.LocalTime;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -36,7 +40,6 @@ public class ListTest {
         list.parallelStream().filter((x) -> x > 3).sorted((x, y) -> y - x).collect(Collectors.toList());
         end = System.currentTimeMillis();
         System.out.println((end - start) + "ms");
-
 
     }
 

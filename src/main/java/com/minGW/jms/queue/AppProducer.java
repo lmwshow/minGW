@@ -12,6 +12,8 @@ import javax.jms.*;
 public class AppProducer {
 
     private static final String url = "tcp://localhost:61616";
+    //    private static final String url="failover:(tcp://localhost:61617,tcp://localhost:61618)?randomize=true"
+
     private static final String topicName = "topic-test";
     public static void main(String[] args) throws JMSException {
 
