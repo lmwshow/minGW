@@ -19,6 +19,8 @@ import java.net.InetSocketAddress;
  * @Description: https://waylau.com/netty-websocket-chat/
  */
 public class ChatServer {
+
+    //存储每一个客户端接入进来时的channel对象
     private final ChannelGroup channelGroup =
             new DefaultChannelGroup(ImmediateEventExecutor.INSTANCE);
     private final EventLoopGroup group = new NioEventLoopGroup();
