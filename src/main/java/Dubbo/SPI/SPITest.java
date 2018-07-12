@@ -21,6 +21,7 @@ public class SPITest {
 
     public static void main(String[] args){
 
+        System.out.println(Thread.currentThread().getContextClassLoader());
 
         ServiceLoader<IHelloService> services = ServiceLoader.load(IHelloService.class);
 
