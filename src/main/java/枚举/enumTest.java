@@ -1,5 +1,8 @@
 package 枚举;
 
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+
 /**
  * @Auther: minGW
  * @Date: 2018/7/12 16:55
@@ -43,7 +46,6 @@ public class enumTest {
     public static void main(String[] args){
 
         Color color = Color.RED;
-
         System.out.println(color.name);
 
         switch (color)
