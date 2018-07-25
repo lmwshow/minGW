@@ -18,18 +18,24 @@ public class JDKDynamicProxyDemonstration {
          */
         InvocationHandler handler = new InvocationHandlerImpl(realSubject);
 
+        ClassLoader handlerloader = handler.getClass().getClassLoader();
         ClassLoader loader = realSubject.getClass().getClassLoader();
         Class[] interfaces = realSubject.getClass().getInterfaces();
 
 
-        Subject subject = (Subject) Proxy.newProxyInstance(loader,interfaces,handler);
+        Subject subject = (Subject) Proxy.newProxyInstance(handlerloader,interfaces,handler);
 
         System.out.println("动态代理对象的类型：" + subject.getClass().getName());
 
         String hello = subject.SayHello("minGW");
         System.out.println(hello);
 
+        subject = (Subject) Proxy.newProxyInstance(loader,interfaces,handler);
 
+        System.out.println("动态代理对象的类型：" + subject.getClass().getName());
+
+        hello = subject.SayHello("minGW");
+        System.out.println(hello);
 
     }
 }
