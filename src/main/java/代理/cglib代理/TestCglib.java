@@ -8,6 +8,7 @@ public class TestCglib {
 
         BookFacadeImpl1 bookCglib = (BookFacadeImpl1) cglib.getInstance(new BookFacadeImpl1());
         bookCglib.addBook();
+        bookCglib.removeBook();
 
     }
 }
