@@ -15,10 +15,10 @@ public class 自动拆箱装箱 {
 
         三元表达式会对类型自动转换，低转高
          */
-//        Long a = (args.length == 0) ? getNull():1;
+        Long a = (args.length == 0) ? getNull():1;
 
 
-        Long a = (args.length == 0) ? getNull():Long.valueOf(1);
+//        Long a = (args.length == 0) ? getNull():Long.valueOf(1);
 
 
 //        Long a = (args.length == 0) ? 1:getNull();
